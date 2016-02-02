@@ -2,6 +2,7 @@
 
 An efficient and flexible library for stitching videos. It uses FFMPEG binary file to stich the videos.
 Supports latest android version. Example project included. 
+This library depends on [android-ffmpeg](https://github.com/guardianproject/android-ffmpeg) to get the FFMPEG binary file.
 
 **Usage :**
 
