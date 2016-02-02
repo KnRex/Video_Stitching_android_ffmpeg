@@ -6,22 +6,22 @@ Supports latest android version. Example project included.
 **Usage :**
 
 //Get Singleton Instance  
-FfmpegManager manager = FfmpegManager.getInstance();
+  FfmpegManager manager = FfmpegManager.getInstance();
  
  //Create Video Stiching Request  
- VideoStitchingRequest videoStitchingRequest = new VideoStitchingRequest.Builder()
-                                                .inputVideoFilePath(videoinputArrayList)
-                                                .outputPath(outputFilePath)
-                                                .build();
+   VideoStitchingRequest videoStitchingRequest = new VideoStitchingRequest.Builder()
+                                                  .inputVideoFilePath(videoinputArrayList)
+                                                  .outputPath(outputFilePath)
+                                                  .build();
 
 //Call stitch videos method  
- manager.stitchVideos(AddVideoActivity.this, videoStitchingRequest, new CompletionListener() {
-            @Override
-            public void onProcessCompleted(String message) {
-               
-            }
-        });
-    }
+   manager.stitchVideos(AddVideoActivity.this, videoStitchingRequest, new CompletionListener() {
+              @Override
+              public void onProcessCompleted(String message) {
+                 
+              }
+          });
+      }
     
     
 Stitched video file will be created in the given output file path.
