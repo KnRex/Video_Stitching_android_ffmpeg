@@ -1,23 +1,21 @@
-# Video_Stitching_android_ffmpeg
+** Video Stitching Module**
 
 An efficient and flexible library for stitching videos. It uses FFMPEG binary file to stich the videos.
+Supports latest android version. Example project included. 
 
+**Usage :**
 
-Example project included.
-
-Usage :
-
- //Get Singleton Instance
- FfmpegManager manager = FfmpegManager.getInstance();
+//Get Singleton Instance  
+FfmpegManager manager = FfmpegManager.getInstance();
  
- //Create Video Stiching Request
+ //Create Video Stiching Request  
  VideoStitchingRequest videoStitchingRequest = new VideoStitchingRequest.Builder()
                                                 .inputVideoFilePath(videoinputArrayList)
                                                 .outputPath(outputFilePath)
                                                 .build();
 
-//Call stitch videos method
-  manager.stitchVideos(AddVideoActivity.this, videoStitchingRequest, new CompletionListener() {
+//Call stitch videos method  
+ manager.stitchVideos(AddVideoActivity.this, videoStitchingRequest, new CompletionListener() {
             @Override
             public void onProcessCompleted(String message) {
                
@@ -27,5 +25,3 @@ Usage :
     
     
 Stitched video file will be created in the given output file path.
-
-
