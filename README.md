@@ -1,4 +1,4 @@
-## ** Video Stitching - android FFmpeg**
+##  Video Stitching - android FFmpeg
 
 An efficient and flexible library for stitching videos. It uses FFMPEG binary file to stich the videos.
 Supports latest android version. Example project included. 
