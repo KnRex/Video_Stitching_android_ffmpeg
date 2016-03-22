@@ -30,7 +30,7 @@ This library depends on [android-ffmpeg](https://github.com/guardianproject/andr
     
 Stitched video file will be created in the given output file path.
 
-![Screenshot]()
+![Screenshot](https://github.com/KnRex/Video_Stitching_android_ffmpeg/blob/master/Screenshots/75ZPVm.gif)
 
 ## **License**
 The MIT License (MIT)
